@@ -19,7 +19,7 @@ int main()
     scanf("%d", &newnode->data);
     newnode->next = 0;
     printf("%d ", newnode->data);
-    head = newnode;
+
     if (head == 0)
     {
         head = newnode;
